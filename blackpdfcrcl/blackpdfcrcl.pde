@@ -1,9 +1,7 @@
 
 import processing.pdf.*;
 
-size(400,600);
-
-beginRecord(PDF, "line.pdf"); 
+size(400,600, PDF, "output.pdf");
 
 //stroke(200);
 background(255);
@@ -36,5 +34,3 @@ while (dimy < height) {
   pointy = pointy + circlerad + 1;
   dimy = dimy + circlerad + 1;
 }
-
-endRecord();

@@ -1,9 +1,7 @@
 
 import processing.pdf.*;
 
-size(600,600);
-
-beginRecord(PDF, "line.pdf"); 
+size(400,600, PDF, "output.pdf");
 
 rectMode(CORNER);
 int dimx = 0;
@@ -23,4 +21,3 @@ while (dimy < height) {
   dimy = dimy + squaredim;
 }
 
-endRecord();
