@@ -1,12 +1,12 @@
-size(400,400);
+size(400,600);
 ellipseMode(CORNER);
 int dimx = 0;
 int dimy = 0;
 int circlex = 0;
 int circley = 0;
 int circlerad = 20;
-while (dimy < 400) {
-  while (dimx < 400) {
+while (dimy < height) {
+  while (dimx < width) {
     ellipse(circlex,circley,circlerad,circlerad);
     circlex = circlex + circlerad;
     dimx = dimx + circlerad;

@@ -11,8 +11,8 @@ int dimy = 0;
 int squarex = 0;
 int squarey = 0;
 int squaredim = 20;
-while (dimy < 600) {
-  while (dimx < 600) {
+while (dimy < height) {
+  while (dimx < width) {
     rect(squarex,squarey,squaredim,squaredim);
     squarex = squarex + squaredim;
     dimx = dimx + squaredim;

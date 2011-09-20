@@ -18,8 +18,8 @@ int pointrad = 1;
 int pointx = 9;
 int pointy = 9;
 
-while (dimy < 600) {
-  while (dimx < 400) {
+while (dimy < height) {
+  while (dimx < width) {
     stroke(200);
     ellipse(circlex,circley,circlerad,circlerad);
     stroke(128);
