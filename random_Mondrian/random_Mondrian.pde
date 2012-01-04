@@ -5,13 +5,13 @@
 //}
 
 //void draw() {
-  int ra1;
-  int ra2;
-  int ra3;
-  int ra4;
-  int ra5;
-  int ra6;
-  int ra7;
+  int ra1 = int(random(1,10));
+  int ra2 = int(random(1,10));
+  int ra3 = int(random(1,10));
+  int ra4 = int(random(1,10));
+  int ra5 = int(random(1,10));
+  int ra6 = int(random(1,10));
+  int ra7 = int(random(1,10));
   float line1;
   float pair1a;
   float pair1b;
@@ -21,13 +21,13 @@
   float pair2a;
   float pair2b;
   float line5;
-  ra1 = int(random(1,10));
-  ra2 = int(random(1,10));
-  ra3 = int(random(1,10));
-  ra4 = int(random(1,10));
-  ra5 = int(random(1,10));
-  ra6 = int(random(1,10));
-  ra7 = int(random(1,10));
+  //ra1 = int(random(1,10));
+  //ra2 = int(random(1,10));
+  //ra3 = int(random(1,10));
+  //ra4 = int(random(1,10));
+  //ra5 = int(random(1,10));
+  //ra6 = int(random(1,10));
+  //ra7 = int(random(1,10));
   line1 = width/ra1;
   pair1a = height/ra2;
   pair1b = pair1a + 10;
