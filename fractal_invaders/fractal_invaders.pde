@@ -2,6 +2,7 @@
    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
    |||  coded by Michele Semeghini  |||||||||||||||||||||||||||||||||||||
    |||  based on Jared Tarbell's program "Fractal.Invaders", 2004  ||||||
+   |||  http://www.openprocessing.org/sketch/42740  |||||||||||||||||||||
    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 */
  
@@ -11,7 +12,7 @@ int halfAxis = (invSize-1)/2;   // fixes a middle vertical simmetry
  
  
 void setup() {
-  size (840, 420);
+  size (1366, 768);
   frameRate(7); 
 }
  
