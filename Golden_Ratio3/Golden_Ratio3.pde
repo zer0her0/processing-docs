@@ -10,7 +10,7 @@ smooth();
 for(float i = 0; i < 20; i++){
   fill(i/10 * 255);
   rect(0,0,1,1);
-  fill(255, 255, 0, 150);
+  //fill(255, 255, 0, 150);
   arc(0, 0, 2, 2, 0, pi/2);
   scale(1/phi);
   rotate(pi/2);
