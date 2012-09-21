@@ -16,8 +16,6 @@ void draw(){
     sb = 150 * sb;
     sx = int(sa);
     sy = int(sb);
-    println(sx);
-    println(sy);
     a++;
     b++;
   }
@@ -28,5 +26,6 @@ void draw(){
     x=0;
     x++<w;
   )set(
-    y,x,~get(x&sy, y&sx));
+    y,x,~get(x&sy, y&sx)); //original mouse driven code: y,x,~get(x&mouseX,y&mouseY));
+  delay(50);
 }
