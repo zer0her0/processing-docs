@@ -3,7 +3,17 @@
   - weighted by letter frequency/usage (in english or other languages)
   - reverse of previous 2
   - other algorithm */
+
+void setup() {
+  size(500, 500);
+  stroke(5); // thickness of border
+}
+
+/* example of greys 0 to 250 in increments of 10 */
+for (int i=0; i < 251; i++) {
   
+}
+
 /* needs min 4 arrays, possibly more */
 
 // fill array in alphabetical order
