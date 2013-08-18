@@ -1,7 +1,7 @@
 void setup() {
 //  colorMode(gray);
   size(500, 500);
-  stroke(0);
+  noStroke();
 }
 
 int isog = 25;
