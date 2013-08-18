@@ -4,14 +4,14 @@ void setup() {
   noStroke();
 }
 
-int isog = 10;
+int isog = 5;
 int isogheight = 0;
 
 void draw() {
-  for (int i=0; i < 25; i++) {
+  for (int i=0; i < 50; i++) {
     fill(isog);
     rect(0, isogheight, 500, 20);
-    isog = isog + 10;
-    isogheight = isogheight + 20;
+    isog = isog + 5;
+    isogheight = isogheight + 10;
   }
 }
