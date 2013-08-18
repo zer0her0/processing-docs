@@ -8,7 +8,7 @@ int isog = 25;
 int isogheight = 0;
 
 void draw() {
-  for (int i=0; i < 25; i++) {
+  for (int i=0; i < 20; i++) {
     fill(isog);
     rect(0, isogheight, 500, 20);
     isog = isog * 10;
