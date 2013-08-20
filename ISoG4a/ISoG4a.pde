@@ -41,15 +41,19 @@ void draw() {
   // weighted array by letter frequency in English
   // int[] weightedarray = { 3, 20, 12, 10, 1, 16, 17, 8, 5, 23, 22, 11, 14, 6, 4, 19, 25, 9, 7, 2, 13, 21, 15, 24, 18, 26 };
   // char[] weightedarray = { 'e', 't', 'a', 'o', 'i', 'n', 's', 'h', 'r', 'd', 'l', 'c', 'u', 'm', 'w', 'f', 'g', 'y', 'p', 'b', 'v', 'k', 'j', 'x', 'q', 'z' };
+  // char[] weightedarray = { 'e', 't', 'a', 'o', 'i', 'n', 's', 'h', 'r', 'd', 'l', 'c', 'u', 'm', 'w', 'f', 'g', 'y', 'p', 'b', 'v', 'k', 'j', 'x', 'q', 'z', 'E', 'T', 'A', 'O', 'I', 'N', 'S', 'H', 'R', 'D', 'L', 'C', 'U', 'M', 'W', 'F', 'H', 'Y', 'P', 'B', 'V', 'K', 'J', 'X', 'Q', 'Z'};
   char[] weightedarray = { 'E', 'e', 'T', 't', 'A', 'a', 'O', 'o', 'I', 'i', 'N', 'n', 'S', 's', 'H', 'h', 'R', 'r', 'D', 'd', 'L', 'l', 'C', 'c', 'U', 'u', 'M', 'm', 'W', 'w', 'F', 'f', 'G', 'g', 'Y', 'y', 'P', 'p', 'B', 'b', 'V', 'v', 'K', 'k', 'J', 'j', 'X', 'x', 'Q', 'q', 'Z', 'z' };
 
   // reverse weighted array by letter frequency in English(loop to automated inverse)
   // int[] reverseweightedarray = { 24, 7, 15, 17, 26, 11, 10, 19, 22, 4, 5, 16, 13, 21, 23, 8, 2, 18, 20, 25, 14, 6, 12, 3, 9, 1 };
   char[] reverseweightedarrya = {  };
 
+
+  
 }
 
 /* Needs:
+  - a character that is a solid block, possibly just adjust color value on char and leave as is.
   - grab tweets
   - matching letters to values for greys(?caps vs all-lower case & numbers?), drop links.
   - rebuilding twitter in grey
